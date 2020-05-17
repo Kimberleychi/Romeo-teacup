@@ -64,5 +64,14 @@ h2 {
 
 
 
-/* -------------------------------------------------*/
+/* -------------------------------------------------background image*/
 
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url("http://cdn.akc.org/content/article-body-image/lab_puppy_dog_pictures.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1450px 700px;
+    
+}
