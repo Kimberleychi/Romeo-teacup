@@ -15,7 +15,7 @@ body {
 
 /* -------------------------------------------------header*/
 
-/* -------------------------------------------------background image*/
+/* -------------------------------------------------background image added and resized for the screen*/
 
 #hero-image {
     height: 700px;
@@ -24,7 +24,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1450px 700px;
-
+/* ------------------------------background image animation added so it has movement & appears to come forwards for a duration of 5 seconds*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -34,10 +34,37 @@ body {
 #hero-outer{
     height: 1000px;
     width: 100%;
-    overflow: ;
+    overflow: hidden;
 }
+
+/* ------------------------------background image keyframe added so the background image scales up for 5 seconds & appears bigger*/
 
 @keyframes hero-zoom {
     from{transform: scale(1)}
     to{ transform: scale(1.1)}
+}
+
+#cover-text, #cover-text h1 {
+    color: white;
+    text-align: center;
+}
+
+#cover-text{
+    font-size: 140%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 800px;
+    height: 200px;
+
+    padding-left: 50px;
+    padding-top: 40px;
+
+    background-color:transparent;
+
+    bottom: 30px;
+    left: 350px;
+
+    position: absolute;
 }
