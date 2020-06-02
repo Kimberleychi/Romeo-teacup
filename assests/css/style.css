@@ -32,7 +32,7 @@ body {
 }
 
 #hero-outer{
-    height: 1000px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 #cover-text, #cover-text h1 {
-    color: white;
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -61,10 +61,56 @@ body {
     padding-left: 50px;
     padding-top: 40px;
 
-    background-color:transparent;
+/*----------------replaced background-color: TRANSPARENT WITH BELLOW*/
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+
 
     bottom: 30px;
     left: 350px;
 
     position: absolute;
+}
+
+#about {
+    height: 700px;
+}
+
+#left-about{
+    padding: 30px;
+    width: 50%;
+    float: left;
+    background-color: yellow
+
+}
+
+#right-about{
+    padding: 30px;
+    width: 50%;
+    float: right;
+     background-color: green
+
+}
+
+#about h1{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-family: Jost;
+}
+/*social media links styled at the bottom of footer*/
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li {
+    display: inline
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #777777;
 }
