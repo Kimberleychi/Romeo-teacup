@@ -61,7 +61,6 @@ body {
     padding-left: 50px;
     padding-top: 40px;
 
-/*----------------replaced background-color: TRANSPARENT WITH BELLOW*/
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
 
@@ -73,7 +72,7 @@ body {
 }
 
 #about {
-    height: 700px;
+    height: 400px;
 }
 
 #left-about{
@@ -98,7 +97,21 @@ body {
     text-transform: uppercase;
     font-family: Jost;
 }
-/*social media links styled at the bottom of footer*/
+
+/*----------------------------Romes Closet Bootstrap added and backgroung image added INTENTION*/
+.romes-closet{
+    background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
+    background-size: 1450px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+}
+
+/*----------------------------social media links styled at the bottom of footer*/
 .social-networks{
     text-align: center;
 
