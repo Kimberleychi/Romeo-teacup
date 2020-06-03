@@ -10,13 +10,10 @@
 body {
     font-family: Jost, sans-serif;
     color: #777777
-
 }
-
-/* -------------------------------------------------header*/
+/* ----------------------------------------------------------header*/
 
 /* -------------------------------------------------background image added and resized for the screen*/
-
 #hero-image {
     height: 700px;
     width: 100%;
@@ -28,7 +25,6 @@ body {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
 }
 
 #hero-outer{
@@ -73,7 +69,7 @@ body {
 
 
 #about {
-    height: 395px;
+    height: 305px;
     color: white;
     text-align: center;
 }
@@ -83,15 +79,13 @@ body {
     width: 50%;
     float: left;
     background-color: #c9e875
-
 }
 
 #right-about{
     padding: 30px;
     width: 50%;
     float: right;
-     background-color: green
-
+    background-color: green
 }
 
 #about h1{
@@ -99,6 +93,30 @@ body {
     color: black;
     text-transform: uppercase;
     font-family: Jost;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /*--------------------------Discount code offer available illustrated with a bootstrap alert.--Continue editing----*/
@@ -140,8 +158,11 @@ body {
 }
 
 /*----------------------------social media links styled at the bottom of footer*/
+
+
 .social-networks{
     text-align: center;
+    background-color: gainsboro;
 
 }
 
