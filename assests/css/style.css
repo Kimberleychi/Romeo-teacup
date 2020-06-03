@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: Playfair sans-serif;
+    font-family: Jost, sans-serif;
     color: #777777
 
 }
@@ -71,15 +71,18 @@ body {
     position: absolute;
 }
 
+
 #about {
-    height: 400px;
+    height: 395px;
+    color: white;
+    text-align: center;
 }
 
 #left-about{
     padding: 30px;
     width: 50%;
     float: left;
-    background-color: yellow
+    background-color: #c9e875
 
 }
 
@@ -98,17 +101,42 @@ body {
     font-family: Jost;
 }
 
+/*--------------------------Discount code offer available illustrated with a bootstrap alert.--Continue editing----*/
+
+.alert {
+    position: relative;
+    padding: .10rem 14rem;
+    margin-bottom: 0rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.alert-success {
+    color: black;
+    font-family: Jost, sans-serif;
+
+}
+
 /*----------------------------Romes Closet Bootstrap added and backgroung image added INTENTION*/
 .romes-closet{
     background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
     background-size: 1450px 700px;
     background-repeat: no-repeat;
     background-position: center;
+
+    bottom: 0px;
 }
 
 .container{
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+    color: white;
+}
+
+/*----------------------------INTENT how do I make this p class text muted white*/
+
+#container #text-muted{
+    color: white;
 }
 
 /*----------------------------social media links styled at the bottom of footer*/
