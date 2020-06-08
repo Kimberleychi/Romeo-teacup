@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost: 100, 200, 300, 400, 500, 600, 700| Playfair: 100, 200, 300, 400, 500, 600, 700');
+/*-------------FONT CDN added INTENT check this----------------*/
 
-/* -------------------------------------------------body*/
+/* ---------------------------------------BODY----------------------------------*/
 *{
     margin: 0;
     padding: 0;
@@ -11,9 +12,9 @@ body {
     font-family: Jost, sans-serif;
     color: #777777
 }
-/* ----------------------------------------------------------header*/
+/* --------------------------------------HEADER----------------------------------*/
 
-/* -------------------------------------------------background image added and resized for the screen*/
+/* ----------------------Background image added and resized to fit the screen-----------------------------*/
 #hero-image {
     height: 700px;
     width: 100%;
@@ -21,7 +22,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1450px 700px;
-/* ------------------------------background image animation added so it has movement & appears to come forwards for a duration of 5 seconds*/
+
+/* -------------BACKGROUND IMAGE ANIMATION added so it has movement & appears to come forwards for a duration of 5 seconds---------------*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -33,12 +35,13 @@ body {
     overflow: hidden;
 }
 
-/* ------------------------------background image keyframe added so the background image scales up for 5 seconds & appears bigger*/
+/* -----------------BACKGROUND IMAGE KEYFRAME added so the background image scales up for 5 seconds & appears bigger---------------------*/
 
 @keyframes hero-zoom {
     from{transform: scale(1)}
     to{ transform: scale(1.1)}
 }
+/* -----------------COVER TEXT OVER BACKGROUND IMAGE---------------------*/
 
 #cover-text, #cover-text h1 {
     color: whitesmoke;
@@ -67,7 +70,7 @@ body {
     position: absolute;
 }
 
-
+/*-------------------------------------ABOUT ME & MEASUREMENTS SECTION----------------------------------*/
 #about {
     height: 305px;
     color: white;
@@ -135,7 +138,7 @@ body {
 
 }
 
-/*----------------------------Romes Closet Bootstrap added and backgroung image added INTENTION*/
+/*----------------------------ROMES CLOSET Jumbotron Bootstrap added and backgroung image added INTENTION-------------------------------*/
 .romes-closet{
     background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
     background-size: 1450px 700px;
@@ -146,8 +149,8 @@ body {
 }
 
 .container{
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+    background: rgb(0, 0, 0); /*----------Fallback color------------*/
+    background: rgba(0, 0, 0, 0.1); /*----------Black background with 0.5 opacity----------*/
     color: white;
 }
 
@@ -157,13 +160,12 @@ body {
     color: white;
 }
 
-/*----------------------------social media links styled at the bottom of footer*/
+/*------------------------------------------FOOTER--------------------------------------------*/ 
 
-
+/*------------------------Social media links styled at the bottom of footer---------------------------*/
 .social-networks{
     text-align: center;
     background-color: gainsboro;
-
 }
 
 .social-networks li {
@@ -174,5 +176,5 @@ body {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #777777;
+    color: white;
 }
