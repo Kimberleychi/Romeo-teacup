@@ -14,6 +14,8 @@ body {
 }
 /* --------------------------------------HEADER----------------------------------*/
 
+
+
 /* ----------------------Background image added and resized to fit the screen-----------------------------*/
 #hero-image {
     height: 700px;
@@ -177,4 +179,16 @@ body {
     margin: 1%;
     padding: 5%;
     color: white;
+}
+/*----------------------------GALLERY PAGE-------------------------*/
+
+#photo{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
 }
