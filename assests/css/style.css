@@ -18,12 +18,13 @@ body {
 
 /* ----------------------Background image added and resized to fit the screen-----------------------------*/
 #hero-image {
-    height: 700px;
+    height: 100%;
     width: 100%;
     background: url("http://cdn.akc.org/content/article-body-image/lab_puppy_dog_pictures.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1450px 700px;
+    background-attachment: fixed;
 
 /* -------------BACKGROUND IMAGE ANIMATION added so it has movement & appears to come forwards for a duration of 5 seconds---------------*/
     animation-name: hero-zoom;
@@ -32,7 +33,7 @@ body {
 }
 
 #hero-outer{
-    height: 700px;
+    height: 750px;
     width: 100%;
     overflow: hidden;
 }
@@ -73,17 +74,21 @@ body {
 }
 
 /*-------------------------------------ABOUT ME & MEASUREMENTS SECTION----------------------------------*/
-#about {
-    height: 305px;
-    color: white;
-    text-align: center;
+
+.container{
+    height: 500px;
+    width: 900px;
+    background: green;
 }
 
-#left-about{
-    padding: 30px;
-    width: 50%;
-    float: left;
-    background-color: #c9e875
+.container p{
+    font-size: 50px;
+}
+
+#about {
+    height: 500px;
+    color: red;
+    text-align: center;
 }
 
 #right-about{
@@ -99,11 +104,13 @@ body {
     text-transform: uppercase;
     font-family: Jost;
 }
+/*---------------------------New Picture Section------------------------------*/
 
 * {
   box-sizing: border-box;
 }
 
+/*---------------3 Picture Thumbnails sized the same------------------*/
 .column {
   float: left;
   width: 33.33%;
@@ -150,17 +157,18 @@ body {
     bottom: 0px;
 }
 
-.container{
+.rome-container{
+    color: whitesmoke;
     background: rgb(0, 0, 0); /*----------Fallback color------------*/
     background: rgba(0, 0, 0, 0.1); /*----------Black background with 0.5 opacity----------*/
-    color: white;
+    
+    
 }
 
+.text-muted small{
+    color: white;
+}
 /*----------------------------INTENT how do I make this p class text muted white*/
-
-#container #text-muted{
-    color: white;
-}
 
 /*------------------------------------------FOOTER--------------------------------------------*/ 
 
